@@ -1,0 +1,13 @@
+from microbit import *
+choinka1 = Image("00800:" "00800:" "06550:" "84546:" "00500")
+choinka2 = Image("00800:" "00600:" "05580:" "57645:" "00500")
+choinka3 = Image("00800:" "00800:" "05460:" "84345:" "00500")
+choinka4 = Image("00800:" "00500:" "06860:" "68546:" "00500")
+choinka5 = Image("00800:" "00500:" "07550:" "54847:" "00500")
+choinka6 = Image("00600:" "00800:" "05560:" "64375:" "00500")
+choinka7 = Image("00800:" "00600:" "05840:" "54548:" "00500")
+choinka8 = Image("00800:" "00600:" "08640:" "64686:" "00500")
+choinka9 = Image("00800:" "00800:" "04550:" "64846:" "00500")
+choinka10 = Image("00800:" "00400:" "05740:" "67455:" "00500")
+choinka = [choinka1, choinka5, choinka3, choinka10, choinka1, choinka6, choinka2, choinka5, choinka8, choinka4, choinka3, choinka7, choinka6, choinka9]
+display.show(choinka, delay=400, wait=True, loop=True)
