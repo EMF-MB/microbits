@@ -1,0 +1,259 @@
+from microbit import *
+time25 = Image("05055:"
+               "50500:"
+               "00555:"
+               "05005:"
+               "55555")
+#display.show(time25)
+time24 = Image("05000:"
+               "50505:"
+               "00555:"
+               "05005:"
+               "55505")
+#display.show(time24)
+time23 = Image("05055:"
+               "50505:"
+               "00555:"
+               "05005:"
+               "55555")
+#display.show(time23)
+time22 = Image("05050:"
+               "50505:"
+               "00505:"
+               "05050:"
+               "55555")
+#display.show(time22)
+time21 = Image("05005:"
+               "50505:"
+               "00505:"
+               "05005:"
+               "55505")
+#display.show(time21)
+time20 = Image("05050:"
+               "50505:"
+               "00505:"
+               "05050:"
+               "55500")
+#display.show(time20)
+time19 = Image("50555:"
+               "50505:"
+               "50555:"
+               "50005:"
+               "50005")
+#display.show(time19)               
+time18 = Image("50555:"
+               "50505:"
+               "50555:"
+               "50505:"
+               "50555")
+#display.show(time18)
+time17 = Image("50555:"
+               "50005:"
+               "50005:"
+               "50005:"
+               "50005")
+time16 = Image("50500:"
+               "50500:"
+               "50555:"
+               "50505:"
+               "50555")
+#display.show(time16)
+time15 = Image("50555:"
+               "50500:"
+               "50555:"
+               "50005:"
+               "50555")
+#display.show(time15)
+time14 = Image("50505:"
+               "50505:"
+               "50555:"
+               "50005:"
+               "50005")
+time13 = Image("50555:"
+               "50005:"
+               "50555:"
+               "50005:"
+               "50555")
+time12 = Image("50050:"
+               "50505:"
+               "50005:"
+               "50050:"
+               "50555")
+#display.show(time12)
+time11 = Image("05050:"
+               "05050:"
+               "05050:"
+               "05050:"
+               "05050")
+time10 = Image("50050:"
+               "50505:"
+               "50505:"
+               "50505:"
+               "50050")
+#display.show(time10)
+time9 = Image("05550:"
+              "05050:"
+              "05550:"
+              "00050:"
+              "00050")
+#display.show(time9)
+time8 = Image("05550:"
+              "05050:"
+              "05550:"
+              "05050:"
+              "05550")
+time7 = Image("05550:"
+              "00050:"
+              "00050:"
+              "00050:"
+              "00050")
+time6 = Image("05550:"
+              "05000:"
+              "05550:"
+              "05050:"
+              "05550")
+time5 = Image("05550:"
+              "05000:"
+              "05550:"
+              "00050:"
+              "05550")
+time4 = Image("05050:"
+              "05050:"
+              "05550:"
+              "00050:"
+              "00050")
+time3 = Image("05550:"
+              "00050:"
+              "05550:"
+              "00050:"
+              "05550")               
+time2 = Image("00500:"
+              "05050:"
+              "00050:"
+              "00500:"
+              "05550")
+time1 = Image("00500:"
+              "05500:"
+              "00500:"
+              "00500:"
+              "05550")              
+time0 = Image("00500:"
+              "05050:"
+              "05050:"
+              "05050:"
+              "00500")
+switch = Image("00000:"
+               "00000:"
+               "05550:"
+               "00000:"
+               "00000")
+while True:
+    if button_a.is_pressed():
+        display.scroll("POMODORO", delay=160)
+        display.show(time25)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time24)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time23)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time22)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time21)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time20)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time19)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time18)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time17)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time16)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time15)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time14)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time13)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time12)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time11)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time10)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time9)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time8)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time7)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time6)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time5)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time4)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time3)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time2)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time1)
+        sleep(59700)
+        display.show(switch)
+        sleep(300)
+        display.show(time0)
+        sleep(6000)
+        display.scroll("POMODORO", delay=160)
+    elif button_b.is_pressed():
+        display.clear()
+
+display.clear()
