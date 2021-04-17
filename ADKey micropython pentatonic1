@@ -1,0 +1,29 @@
+from microbit import *
+import music
+
+while True:
+    if pin1.read_analog() > 0 and pin1.read_analog() < 20:
+        for freq in range(690, 710, 10):
+            music.pitch(freq, 13)
+        for freq in range(710, 690, -10):
+            music.pitch(freq, 13)
+    elif pin1.read_analog() > 30 and pin1.read_analog() < 70:
+        for freq in range(770, 790, 10):
+            music.pitch(freq, 13)
+        for freq in range(790, 770, -10):
+            music.pitch(freq, 13)
+    elif pin1.read_analog() > 70 and pin1.read_analog() < 110:
+        for freq in range(870, 890, 5):
+            music.pitch(freq, 13)
+        for freq in range(890, 870, -5):
+            music.pitch(freq, 13)
+    elif pin1.read_analog() > 110 and pin1.read_analog() < 150:
+        for freq in range(1036, 1056, 4):
+            music.pitch(freq, 13)
+        for freq in range(1056, 1036, -4):
+            music.pitch(freq, 13)
+    elif pin1.read_analog() > 150 and pin1.read_analog() < 600:
+        for freq in range(1164, 1184, 4):
+            music.pitch(freq, 13)
+        for freq in range(1184, 11164, -4):
+            music.pitch(freq, 13)
